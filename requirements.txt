@@ -1,0 +1,6 @@
+flask
+flask-ngrok
+tensorflow
+tensorflow-hub
+unicodedata
+IPython
