@@ -1,6 +1,9 @@
 # Language-Translation-model
 Tensorflow model to translate English text to German language.
+We made a custom encoder model which also returns cell state and hidden state of the LSTM layer. This encoder model runs on english text corpus and outputs the cell state of final LSTM layer. These states are used as the initial state for the decoder model, which helps to predict the tokenized sequence of German text. A pre-trained embedding layer is used to tokenise the english text. Finally implemented the model using flask.
 
+
+# Some Demo of Flask implementation of the model
 
 ![image](https://user-images.githubusercontent.com/65457437/126872790-a2734248-cb4d-45fb-8bbd-1b82802eeeec.png)
 
